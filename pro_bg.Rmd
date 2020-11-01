@@ -7,3 +7,11 @@ output:
     toc_float: true
 ---
 
+## Internship
+
+### BMW GROUP, Beijing, China
+
+Presently,I'm a Data Analyst Intern at [BMW Group](https://www.bmw.com.cn/zh/index.html), China.
+
+### Deliotte, Shanghai, China
+I was Management Consulting Intern at [Deloitte](https://www2.deloitte.com/cn/zh.html) between Febuary to April, 2019. 
