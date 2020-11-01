@@ -17,7 +17,7 @@ library(flexdashboard)
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Scores of Chinese Restaurant in NYC
 
 ```{r}
 data("rest_inspec")
@@ -38,7 +38,7 @@ rest_inspec %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Number of Chinese Restaurant in NYC
 
 ```{r}
 rest_inspec %>% 
@@ -51,7 +51,7 @@ rest_inspec %>%
   )
 ```
 
-### Chart C
+### Score of Chinese Restaurant Over Time
 
 ```{r}
 rest_inspec %>% 
