@@ -3,7 +3,7 @@ title: "More about Me"
 
 ---
 
-## My bunnies {.tabset}
+## My Bunnies {.tabset}
 
 ### Peanut
 
@@ -16,3 +16,9 @@ Peanut is a very sweet boy. He is two-and-half years old now.
 <img src="pics/bunbun.jpg" style="width:50%; length:50%">
 
 Bunbun is a naughty girl who prefers bunnies much more than humans :( .
+
+## My Hometown
+
+<img src="pics/xian.jpg" style="width:75%; length:50%">
+
+I grew up in Xi'an, an old Chinese city with abundance of historical and cultural heritage.
