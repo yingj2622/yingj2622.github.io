@@ -7,3 +7,16 @@ output:
     toc_float: true
 ---
 
+## My bunnies {.tabset}
+
+### Peanut
+
+<img src="pics/peanut.jpg" style="width:75%">
+
+Peanut is a very sweet boy. He is two-and-half years old now.
+
+### Bunbun
+
+<img src="pics/bunbun.jpg" style="width:75%">
+
+Bunbun is a naughty girl who prefers bunnies much more than humans :( .
