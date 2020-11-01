@@ -8,3 +8,50 @@ library(plotly)
 library(p8105.datasets)
 ```
 
+Read in data and select columns I need.
+
+```{r}
+data("rest_inspec")
+
+rest_inspec = 
+  rest_inspec %>% 
+  select(boro, cuisine_description, dba, score, grade, grade_date) %>% 
+  filter(grade %in% c("A","B","C"))
+```
+
+## Bar Plot
+
+Make a bar plot about the number of Chinese restaurant in different boros.
+
+```{r}
+rest_inspec %>% 
+  filter(cuisine_description == "Chinese") %>% 
+  count(boro, grade) %>% 
+  mutate(boro = fct_reorder(boro,n)) %>% 
+  plot_ly(
+    x = ~boro,  y = ~n, type = "bar", colors = "viridis",
+    color = ~grade
+  )
+```
+
+## Box plot
+
+Create a box plot about boro vs. score
+
+```{r}
+rest_inspec %>% 
+  filter(cuisine_description == "Chinese") %>% 
+  plot_ly(x = ~ boro,y = ~ score, colors = "viridis", 
+          type = "box",color = ~boro)
+```
+
+## Scatter plot
+
+Create a box plot about score vs. time
+
+```{r}
+rest_inspec %>% 
+  filter(cuisine_description == "Chinese") %>% 
+  plot_ly(x = ~ grade_date,y = ~ score, colors = "viridis",color = ~grade, type = "scatter",alpha = 0.4)
+```
+
