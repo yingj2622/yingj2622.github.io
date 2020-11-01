@@ -8,7 +8,7 @@ output:
 ---
 # Something about me
 
-<img src="pics/me.jpg" style="width:75%">
+<img src="pics/me.jpg" style="width:75%; margin:3px 20 px">
 
 ## Brief Intro
 
@@ -19,6 +19,8 @@ This website mainly includes:
 * [Academic Background](acd_bg.html)
 
 * [Professional Background](pro_bg.html)
+
+You can learn more about my background through [Linkedin](https://www.linkedin.com/in/ying-jin-2a0863192/).
 
 ## Want more?
 
