@@ -1,0 +1,61 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embeded
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+library(flexdashboard)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+data("rest_inspec")
+
+rest_inspec = 
+  rest_inspec %>% 
+  select(boro, cuisine_description, dba, score, grade, grade_date) %>% 
+  filter(grade %in% c("A","B","C"))
+```
+
+```{r}
+rest_inspec %>% 
+  filter(cuisine_description == "Chinese") %>% 
+  count(boro, grade) %>% 
+  mutate(boro = fct_reorder(boro,n)) %>% 
+  plot_ly(
+    x = ~boro,  y = ~n, type = "bar", colors = "viridis",
+    color = ~grade
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+rest_inspec %>% 
+  filter(cuisine_description == "Chinese") %>% 
+  plot_ly(x = ~ boro,y = ~ score, colors = "viridis", 
+          type = "box",color = ~boro)
+```
+
+### Chart C
+
+```{r}
+rest_inspec %>% 
+  filter(cuisine_description == "Chinese") %>% 
+  plot_ly(x = ~ grade_date,y = ~ score, colors = "viridis",color = ~grade, type = "scatter",alpha = 0.4)
+```
+
