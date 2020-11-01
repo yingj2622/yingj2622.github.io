@@ -1,7 +1,8 @@
 ---
-title: "Something about Ying Jin"
+title: "Something about Me"
 output: 
   html_document:
+    code_folding: hide
     toc: true
     toc_float: true
 ---
@@ -10,7 +11,7 @@ output:
 
 ## Brief Intro
 
-Hi, this is Ying Jin, a fresh graduate student at Columbia Mailman School of Public Health. I grew up in Xi'an, China and got my undergraduate degree at Xiamen University. I always look for new things to try  and new friends to meet. Hope you will enjoy my personal website :)!
+Hi, this is Ying Jin, a fresh graduate student at Columbia Mailman School of Public Health. I grew up in Xi'an, China and got my undergraduate degree at Xiamen University. I always look for new things to try  and new friends to meet. Hope you will enjoy my personal website :) !
 
 This website include:
 

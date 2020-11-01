@@ -4,9 +4,10 @@ navbar:
   title: "Home"
   right:
     - text: "Background"
-       menu:
+      icon: fa-graduation-cap
+      menu:
         - text: "Academic"
-          href: avd_bg.html
+          href: acd_bg.html
         - text: "Professional"
           href: pro_bg.html
     - icon: fa-envelope fa-lg
