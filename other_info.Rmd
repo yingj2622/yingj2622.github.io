@@ -11,12 +11,12 @@ output:
 
 ### Peanut
 
-<img src="pics/peanut.jpg" style="width:75%">
+<img src="pics/peanut.jpg" style="width:50%; length:50%">
 
 Peanut is a very sweet boy. He is two-and-half years old now.
 
 ### Bunbun
 
-<img src="pics/bunbun.jpg" style="width:75%">
+<img src="pics/bunbun.jpg" style="width:50%; length:25%">
 
 Bunbun is a naughty girl who prefers bunnies much more than humans :( .
