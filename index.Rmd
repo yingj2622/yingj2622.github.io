@@ -1,0 +1,10 @@
+---
+title: "Something about Ying JIn"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    self_contained: no
+---
+
+<img src="images/me.jpg" style="width:75%">
