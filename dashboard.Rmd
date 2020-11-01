@@ -31,12 +31,8 @@ rest_inspec =
 ```{r}
 rest_inspec %>% 
   filter(cuisine_description == "Chinese") %>% 
-  count(boro, grade) %>% 
-  mutate(boro = fct_reorder(boro,n)) %>% 
-  plot_ly(
-    x = ~boro,  y = ~n, type = "bar", colors = "viridis",
-    color = ~grade
-  )
+  plot_ly(x = ~ boro,y = ~ score, colors = "viridis", 
+          type = "box",color = ~boro)
 ```
 
 Column {data-width=350}
@@ -47,8 +43,12 @@ Column {data-width=350}
 ```{r}
 rest_inspec %>% 
   filter(cuisine_description == "Chinese") %>% 
-  plot_ly(x = ~ boro,y = ~ score, colors = "viridis", 
-          type = "box",color = ~boro)
+  count(boro, grade) %>% 
+  mutate(boro = fct_reorder(boro,n)) %>% 
+  plot_ly(
+    x = ~boro,  y = ~n, type = "bar", colors = "viridis",
+    color = ~grade
+  )
 ```
 
 ### Chart C
