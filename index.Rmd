@@ -13,8 +13,12 @@ output:
 
 Hi, this is Ying Jin, a fresh graduate student at Columbia Mailman School of Public Health. I grew up in Xi'an, China and got my undergraduate degree at Xiamen University. I always look for new things to try  and new friends to meet. Hope you will enjoy my personal website :) !
 
-This website include:
+This website mainly includes:
 
 * [Academic Background](acd_bg.html)
 
 * [Professional Background](pro_bg.html)
+
+## Want more?
+
+If you want to learn more about me, see [here](other_info.html)

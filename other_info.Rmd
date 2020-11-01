@@ -1,0 +1,9 @@
+---
+title: "More about Me"
+output:
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_float: true
+---
+
