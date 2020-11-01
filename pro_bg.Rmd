@@ -13,5 +13,17 @@ output:
 
 Last summer,I was a Data Analyst Intern at [BMW Group](https://www.bmw.com.cn/zh/index.html), China.
 
+* Use Tableau to build dashboard
+
+* Data cleaning and wranging
+
+* Defects prediction.
+
 ### Deliotte, Shanghai, China
 I was a Management Consulting Intern at [Deloitte](https://www2.deloitte.com/cn/zh.html) between Febuary to April, 2019. 
+
+* Used Excel for financial indicators calculation
+
+* Undertake due diligence
+
+* Conducted competition analysis 
