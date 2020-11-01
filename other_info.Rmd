@@ -1,10 +1,6 @@
 ---
 title: "More about Me"
-output:
-  html_document:
-    code_folding: hide
-    toc: true
-    toc_float: true
+
 ---
 
 ## My bunnies {.tabset}
@@ -17,6 +13,6 @@ Peanut is a very sweet boy. He is two-and-half years old now.
 
 ### Bunbun
 
-<img src="pics/bunbun.jpg" style="width:50%; length:25%">
+<img src="pics/bunbun.jpg" style="width:50%; length:50%">
 
 Bunbun is a naughty girl who prefers bunnies much more than humans :( .

@@ -19,3 +19,6 @@ navbar:
 output:
   html_document:
     theme: yeti
+    code_folding: hide
+    toc: true
+    toc_float: true
