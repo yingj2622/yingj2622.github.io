@@ -1,11 +1,12 @@
 ---
-title: "Something about Me"
+title: "Ying Jin"
 output: 
   html_document:
     code_folding: hide
     toc: true
     toc_float: true
 ---
+# Something about me
 
 <img src="pics/me.jpg" style="width:75%">
 

@@ -7,9 +7,17 @@ output:
     toc_float: true
 ---
 
-## Graduate School
-
 ## Undergraduate School
 
+### School of Management, Xiamen University
+
 <img src="pics/xmu.jpg" style="width:75%">
+
+I graduated from [Xiamen University](https://en.xmu.edu.cn/) in 2019. My undergraduate major is Business Management.
+
+## Graduate School
+
+### Mialman School of Public Health, Columbia University
+
+Now I'm in the MS Program in Biostatistics at [Columbia Univeristy](https://www.columbia.edu/).
 
