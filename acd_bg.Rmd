@@ -11,7 +11,7 @@ output:
 
 ### School of Management, Xiamen University
 
-<img src="pics/xmu.jpg" style="width:50%;length:50%">
+<img src="pics/xmu.jpg" style="width:50%;length:75%;margin:8px 40px">
 
 I graduated from [Xiamen University](https://en.xmu.edu.cn/) in 2019. My undergraduate major is Business Management.
 
