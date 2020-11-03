@@ -18,7 +18,7 @@ This website mainly includes:
 
 * [My Professional Background](pro_bg.html)
 
-You can learn more about my background through [Linkedin](https://www.linkedin.com/in/ying-jin-2a0863192/).
+You can learn more about my background through [Linkedin](https://www.linkedin.com/in/ying-jin-2a0863192/) or [my CV](resume.html).
 
 ## Want more?
 
