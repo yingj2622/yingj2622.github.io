@@ -1,0 +1,11 @@
+---
+title: "Resume"
+---
+
+```{r}
+
+```{r out.width="100%", out.height="500"}
+knitr::include_graphics('./docs/Resume_Ying Jin -5.0.pdf')
+```
+```
+
