@@ -10,11 +10,13 @@ title: "Ying Jin"
 
 Hi, this is Ying Jin from Xi'an, China. I always look for new things to try  and new friends to meet. Hope you will enjoy my personal website :) !
 
+## Background
+
 This website mainly includes:
 
-* [Academic Background](acd_bg.html)
+* [My Academic Background](acd_bg.html)
 
-* [Professional Background](pro_bg.html)
+* [My Professional Background](pro_bg.html)
 
 You can learn more about my background through [Linkedin](https://www.linkedin.com/in/ying-jin-2a0863192/).
 
